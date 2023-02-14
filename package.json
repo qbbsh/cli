@@ -1,7 +1,7 @@
 {
   "name": "@qbbsh/starter-cli",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cli stater",
   "author": {
     "name": "Q.Ben Zheng",
