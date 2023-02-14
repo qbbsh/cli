@@ -10,7 +10,7 @@ release_main() {
         pnpm bumpp                                      \
             package.json                                \
             --commit "build: :bookmark: publish v%s"    \
-            --all --tag --push          || return 1
+            --all --tag --push --yes    || return 1
         pnpm -r publish --force         || return 1
         release:info release successfully
     else
