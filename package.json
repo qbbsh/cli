@@ -1,7 +1,7 @@
 {
-  "name": "@qbb-sh/starter-cli",
+  "name": "@qbbsh/starter-cli",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli stater",
   "author": {
     "name": "Q.Ben Zheng",
@@ -48,9 +48,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
-    "@qbb-sh/starter-cli": "workspace:*",
+    "@qbbsh/starter-cli": "workspace:*",
     "@types/node": "^18.13.0",
     "bumpp": "^8.2.1",
+    "cz-git": "^1.4.1",
     "czg": "^1.4.1",
     "eslint": "^8.34.0",
     "fast-glob": "^3.2.12",
@@ -65,6 +66,11 @@
     "typescript": "^4.9.5",
     "unbuild": "^1.1.1",
     "vitest": "^0.28.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged && pnpm lint"
