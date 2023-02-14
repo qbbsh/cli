@@ -1,6 +1,6 @@
 # starter-cli
 
-![starter-cli-version](https://img.shields.io/npm/v/@qbbsh-starter-cli?color=729B1B&label=)
+![starter-cli-version](https://img.shields.io/npm/v/@qbbsh/starter-cli?color=212121&label=)
 
 1. Get clean template
 
