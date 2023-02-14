@@ -12,7 +12,7 @@ npx -y degit Zhengqbbb/starter-cli <filename>
 
 3. Update LICENSE
 
-4. Install Dependencies and start project
+4. Install Dependencies and start cli
 
 ```sh
 pnpm install
