@@ -5,9 +5,10 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': ^0.35.2
-      '@qbb-sh/starter-cli': workspace:*
+      '@qbbsh/starter-cli': workspace:*
       '@types/node': ^18.13.0
       bumpp: ^8.2.1
+      cz-git: ^1.4.1
       czg: ^1.4.1
       eslint: ^8.34.0
       fast-glob: ^3.2.12
@@ -24,9 +25,10 @@ importers:
       vitest: ^0.28.5
     devDependencies:
       '@antfu/eslint-config': 0.35.2_7kw3g6rralp5ps6mg3uyzz6azm
-      '@qbb-sh/starter-cli': 'link:'
+      '@qbbsh/starter-cli': 'link:'
       '@types/node': 18.13.0
       bumpp: 8.2.1
+      cz-git: 1.4.1
       czg: 1.4.1
       eslint: 8.34.0
       fast-glob: 3.2.12
@@ -1565,6 +1567,10 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: true
+
+  /cz-git/1.4.1:
+    resolution: {integrity: sha512-EOtuitcnfxde8t3NNTKh2YxEJhLXGiVlKSVaZipK3+DVo135rEUifAfqxkslM66Nf6ZO7a+3JR+XAOLhMXUAjQ==}
     dev: true
 
   /czg/1.4.1:

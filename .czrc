@@ -1,0 +1,12 @@
+{
+  "path": "node_modules/cz-git",
+  "alias": {
+    "f": "docs: fix typos",
+    "r": "docs: update README",
+    "b": "chore: bump dependencies",
+    "s": "style: update code format",
+    "i": "chore: initial commit",
+    "c": "chore: update config"
+  },
+  "customScopesAlign": "top"
+}

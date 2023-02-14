@@ -7,7 +7,7 @@
     "_headers": "properties",
     "_redirects": "properties"
   },
-  "unocss.root": "docs/.vitepress/build/plugins/unocss.ts",
+  "files.trimTrailingWhitespace": true,
   "prettier.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true

@@ -2,16 +2,16 @@ node_modules
 .env
 *.log
 
+# Bundle
+bin
+dist
+
 # Docs
 docs/.vitepress/cache
 urls.txt
-dist
 
 # Mac OS
 .DS_Store
-
-# Bundle
-bin/
 
 # Typescript build file
 *.tsbuildinfo
