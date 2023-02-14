@@ -7,7 +7,7 @@ WORK_DIR="$(x wsroot)"
 # Section: Main
 release_main() {
     if pnpm lint && pnpm test; then
-        pnpm bummp      \
+        pnpm bumpp                                      \
             package.json                                \
             --commit "build: :bookmark: publish v%s"    \
             --all --tag --push          || return 1
