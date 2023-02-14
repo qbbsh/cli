@@ -44,13 +44,17 @@
     "test": "vitest run",
     "postinstall": "simple-git-hooks",
     "prepack": "npm run build",
-    "release": "bumpp && npm publish"
+    "release": "pnpm run-s release:bump release:publish",
+    "release:bump": "pnpm bumpp -y -c 'build: :bookmark: publish v%s' -x 'pnpm run release:changelog'",
+    "release:changelog": "changelogen",
+    "release:publish": "echo 3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
     "@qbbsh/starter-cli": "workspace:*",
     "@types/node": "^18.13.0",
     "bumpp": "^8.2.1",
+    "changelogen": "^0.4.1",
     "cz-git": "^1.4.1",
     "czg": "^1.4.1",
     "eslint": "^8.34.0",
@@ -77,5 +81,19 @@
   },
   "lint-staged": {
     "*.ts": "eslint --fix"
+  },
+  "changelog": {
+    "types": {
+      "feat": {
+        "title": "🚀 Features"
+      },
+      "fix": {
+        "title": "🐞 Bug Fixes"
+      },
+      "perf": {
+        "title": "🏎 Performance"
+      }
+    },
+    "github": "Zhengqbbb/starter-cli"
   }
 }

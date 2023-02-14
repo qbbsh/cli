@@ -12,6 +12,14 @@ npx -y degit Zhengqbbb/starter-cli <filename>
 
 3. Update LICENSE
 
+4. Install Dependencies and start project
+
+```sh
+pnpm install
+pnpm dev # or `pnpm build`
+pnpm start
+```
+
 ## LICENSE
 
 MIT
