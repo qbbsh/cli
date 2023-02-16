@@ -14,7 +14,7 @@
 npx -y degit Zhengqbbb/starter-cli <filename>
 ```
 
-2. Search and rename include words `starter-cli`
+2. Search and rename include words `starter-cli` `@qbbsh` `Zhengqbbb`
 
 3. Update LICENSE
 

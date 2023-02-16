@@ -3,18 +3,14 @@
   "type": "module",
   "version": "1.3.0",
   "description": "cli stater",
-  "author": {
-    "name": "Q.Ben Zheng",
-    "email": "zhengqbbb@gmail.com",
-    "url": "https://github.com/Zhengqbbb"
-  },
+  "author": "Q.Ben Zheng <zhengqbbb@gmail.com> (https://github.com/Zhengqbbb/)",
   "license": "MIT",
-  "homepage": "https://github.com/Zhengqbbb/cli-starter#readme",
+  "homepage": "https://github.com/Zhengqbbb/starter-cli#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zhengqbbb/cli-starter"
+    "url": "https://github.com/Zhengqbbb/starter-cli"
   },
-  "bugs": "https://github.com/Zhengqbbb/cli-starter/issues",
+  "bugs": "https://github.com/Zhengqbbb/starter-cli/issues",
   "keywords": [
     "cli"
   ],
