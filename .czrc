@@ -12,7 +12,7 @@
     "r": "docs: update README",
     "b": "chore: bump dependencies",
     "s": "style: update code format",
-    "i": "chore: initial commit",
+    "i": "feat: initial commit",
     "c": "chore: update config"
   },
   "customScopesAlign": "top"
