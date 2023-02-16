@@ -1,6 +1,12 @@
-# starter-cli
+<h1 align="center">starter-cli</h1>
 
-![starter-cli-version](https://img.shields.io/npm/v/@qbbsh/starter-cli?color=212121&label=)
+<p align="center">
+  <img alt="version" src="https://img.shields.io/npm/v/@qbbsh/starter-cli?color=212121&label=">
+</p>
+
+<pre align="center">Working in Progress</pre>
+
+---
 
 1. Get clean template
 
@@ -19,6 +25,8 @@ pnpm install
 pnpm dev # or `pnpm build`
 pnpm start
 ```
+
+---
 
 ## LICENSE
 
