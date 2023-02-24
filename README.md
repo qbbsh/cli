@@ -11,7 +11,7 @@
 1. Get clean template
 
 ```sh
-npx -y degit Zhengqbbb/starter-cli <filename>
+npx -y degit Zhengqbbb/cli <filename>
 ```
 
 2. Search and rename include words `starter-cli` `@qbbsh` `Zhengqbbb`
