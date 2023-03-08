@@ -11,10 +11,10 @@
 1. Get clean template
 
 ```sh
-npx -y degit Zhengqbbb/cli <filename>
+npx -y degit qbbsh/cli <filename>
 ```
 
-2. Search and rename include words `starter-cli` `@qbbsh` `Zhengqbbb`
+2. Search and rename include words `starter-cli` `qbbsh` `Zhengqbbb`
 
 3. Update LICENSE
 

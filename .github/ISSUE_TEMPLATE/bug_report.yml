@@ -14,7 +14,7 @@ body:
         - label: I am using the **latest version**
           required: true
 
-        - label: I have searched [README](https://github.com/Zhengqbbb/starter-cli#README)
+        - label: I have searched [README](https://github.com/qbbsh/starter-cli#README)
           required: true
 
   - type: textarea
