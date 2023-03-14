@@ -1,4 +1,5 @@
 {
+  "$schema": "https://cdn.jsdelivr.net/gh/Zhengqbbb/cz-git@1.6.0/docs/public/schema/cz-git.json",
   "path": "node_modules/cz-git",
   "scopes": [
     "cli",
