@@ -2,8 +2,11 @@
 
 <p align="center">
   <img alt="version" src="https://img.shields.io/npm/v/@qbbsh/starter-cli?color=212121&label=">
+  <br>
+  <a href="https://github.com/antfu/eslint-config#readme">
+    <img alt="version" src="https://antfu.me/badge-code-style.svg">
+  </a>
 </p>
-
 <pre align="center">Working in Progress</pre>
 
 ---
