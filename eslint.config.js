@@ -5,10 +5,7 @@ export default antfu(
     {
         yaml: false,
         stylistic: { indent: 4 },
-        ignores: [
-            'examples',
-            'components.d.ts',
-        ],
+        ignores: ['components.d.ts'],
     },
     {
         rules: {
