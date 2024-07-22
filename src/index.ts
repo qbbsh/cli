@@ -1,3 +1,5 @@
-#!/usr/bin/env node
+/** Hello World */
+export type A = typeof a
 
-console.log('Hello World')
+const a: string = 'Hello World'
+console.log(a)
