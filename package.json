@@ -41,7 +41,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest",
-    "postinstall": "simple-git-hooks",
+    "prepare": "simple-git-hooks",
     "prepack": "run-s lint build",
     "release": "run-s release:bump release:publish",
     "release:bump": "bumpp -c 'build: :bookmark: publish v%s'",
