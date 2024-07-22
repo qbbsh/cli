@@ -10,7 +10,7 @@ export default defineConfig(
             bundle: true,
             external: ['./package.json'],
             outExtension: ({ format }) =>
-                ({ js: format === 'esm' ? '.mjs' : '.js' }),
+                ({ js: format === 'esm' ? '.mjs' : '.cjs' }),
         },
         {
             entry: { index: './src/index.ts' },

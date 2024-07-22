@@ -30,6 +30,7 @@
     "starter-cli": "bin/main.mjs"
   },
   "files": [
+    "bin",
     "dist"
   ],
   "scripts": {
