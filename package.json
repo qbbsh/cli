@@ -1,7 +1,7 @@
 {
   "name": "@qbbsh/starter-cli",
   "type": "module",
-  "version": "1.5.1",
+  "version": "1.5.2-beta.1",
   "description": "cli stater",
   "author": "Q.Ben Zheng <zhengqbbb@gmail.com> (https://github.com/Zhengqbbb/)",
   "license": "MIT",
@@ -26,45 +26,53 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "bin": {
-    "starter-cli": "dist/index.cjs"
+    "starter-cli": "bin/main.mjs"
   },
   "files": [
     "dist"
   ],
   "scripts": {
     "start": "starter-cli",
-    "dev": "unbuild --stub && vitest",
-    "build": "unbuild",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "cz": "czg",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "vitest run",
+    "test": "vitest",
     "postinstall": "simple-git-hooks",
-    "prepack": "npm run build",
-    "release": "pnpm run-s release:bump release:publish",
-    "release:bump": "pnpm bumpp -y -c 'build: :bookmark: publish v%s'",
+    "prepack": "run-s lint build",
+    "release": "run-s release:bump release:publish",
+    "release:next": "bumpp --no-commit --no-tag && pnpm publish --tag next --no-git-checks",
+    "release:bump": "bumpp -y -c 'build: :bookmark: publish v%s'",
     "release:publish": "pnpm publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.1.0",
+    "@antfu/eslint-config": "^2.23.1",
     "@qbbsh/starter-cli": "workspace:*",
-    "@types/node": "^18.18.8",
-    "bumpp": "^9.2.0",
-    "cz-git": "^1.7.1",
-    "czg": "^1.7.1",
-    "eslint": "^8.53.0",
-    "fast-glob": "^3.3.1",
-    "fs-extra": "^11.1.1",
-    "lint-staged": "^15.0.2",
-    "npm-run-all": "^4.1.5",
-    "pathe": "^1.1.1",
-    "pnpm": "^8.10.2",
-    "rimraf": "^5.0.5",
-    "simple-git-hooks": "^2.9.0",
-    "tsx": "^3.14.0",
-    "typescript": "^5.2.2",
-    "unbuild": "^2.0.0",
-    "vitest": "^0.34.6"
+    "@types/node": "^20.14.11",
+    "bumpp": "^9.4.1",
+    "cz-git": "^1.9.4",
+    "czg": "^1.9.4",
+    "eslint": "^9.7.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "lint-staged": "^15.2.7",
+    "npm-run-all2": "^6.2.2",
+    "pathe": "^1.1.2",
+    "pnpm": "^9.6.0",
+    "rimraf": "^6.0.1",
+    "simple-git-hooks": "^2.11.1",
+    "tsup": "^8.2.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "eslint": "9"
+      }
+    }
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged && pnpm lint"
