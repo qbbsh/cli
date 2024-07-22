@@ -44,7 +44,7 @@
     "prepack": "run-s lint build",
     "release": "run-s release:bump release:publish",
     "release:next": "bumpp --no-commit --no-push --no-tag && pnpm publish --tag next --no-git-checks",
-    "release:bump": "bumpp -y -c 'build: :bookmark: publish v%s'",
+    "release:bump": "bumpp -c 'build: :bookmark: publish v%s'",
     "release:publish": "pnpm publish"
   },
   "devDependencies": {
