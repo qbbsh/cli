@@ -1,7 +1,7 @@
 {
   "name": "@qbbsh/starter-cli",
   "type": "module",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "packageManager": "pnpm@9.6.0",
   "description": "cli stater",
   "author": "Q.Ben Zheng <zhengqbbb@gmail.com> (https://github.com/Zhengqbbb/)",
