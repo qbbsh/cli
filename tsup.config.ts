@@ -8,7 +8,7 @@ export default defineConfig(
             outDir: './dist',
             clean: true,
             bundle: true,
-            external: ['./package.json'],
+            external: [],
             outExtension: ({ format }) =>
                 ({ js: format === 'esm' ? '.mjs' : '.cjs' }),
         },
