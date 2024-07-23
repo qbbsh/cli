@@ -2,10 +2,7 @@ import antfu from '@antfu/eslint-config'
 
 export default antfu(
     {
-        vue: true,
-        astro: true,
         yaml: false,
-        markdown: false,
         stylistic: { indent: 4 },
         overrides: {
             jsonc: {
